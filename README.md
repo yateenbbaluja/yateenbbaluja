@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Yateen Bbaluja</h1>
 <h3 align="center">A passionate IoT developer from India, working with TU/e in Eindhoven</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=yateenbbaluja&label=Profile%20views&color=0e75b6&style=flat" alt="yateenbbaluja" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yateenbbaluja" alt="yateenbbaluja" /></a> </p>
-
 - 🔭 I’m currently working on **IoT Platform project**
 
 - 🌱 I’m currently learning **Frameworks and OpenShift**
