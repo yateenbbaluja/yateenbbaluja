@@ -13,7 +13,13 @@
 
 - 🤝 I’m looking for help with **IoT, cloud, embedded devices**
 
+- 👨‍💻 All of my projects are available at [https://github.com/yateenbbaluja](https://github.com/yateenbbaluja)
+
+- 💬 Ask me about **anything**
+
 - 📫 How to reach me **yateenbbaluja@gmail.com**
+
+- 📄 Know about my experiences [https://tinyurl.com/mka5z4at](https://tinyurl.com/mka5z4at)
 
 - ⚡ Fun fact **I am open to talk on anything**
 
