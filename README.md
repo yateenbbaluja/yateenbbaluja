@@ -1,4 +1,4 @@
-<h1 align="center">Hi there Visitor Ciao, I'm Yateen Bbaluja</h1>
+<h1 align="center">https://rishavanand.github.io/static/images/greetings.gif, I'm Yateen Bbaluja</h1>
 <h3 align="center">A passionate IoT developer from India, working with TU/e in Eindhoven</h3>
 
 - 🔭 I’m currently working on **IoT Platform project**
