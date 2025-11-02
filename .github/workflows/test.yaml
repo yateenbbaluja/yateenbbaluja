@@ -1,13 +1,50 @@
-name: learn-github-actions
+name: learn-github-actions. #name of the workflow
 run-name: ${{ github.actor }} is learning GitHub Actions
-on: [push]
+on: [push] #trigger-event
 jobs:
-  check-bats-version:
-    runs-on: ubuntu-latest
+  check-bats-version: #job-name
+    runs-on: ubuntu-latest #runs on ubuntu
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5 #actions/checkout- repo name
       - uses: actions/setup-node@v4
-        with:
+        with: # with is the input from user side like what we are putting
           node-version: '20'
       - run: npm install -g bats
       - run: bats -v
+
+# This is the workflow pattern
+# Workflow
+#  ├── Trigger (on)
+#  ├── Jobs
+#  │    ├── Job ID
+#  │    │    ├── Runner (runs-on)
+#  │    │    ├── Steps
+#  │    │    │    ├── uses / run
+#  │    │    │    ├── name / env / if
+#  │    │    │    └── with (optional)
+
+# workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked into your repository.
+
+# workflow can be trigger in different ways
+# 1. event that occur in your workflows repo
+# 2. events that occur outside of GitHub and trigger a reposioty_dispatch event on github
+# 3. scheduled times
+# 4. Manual
+
+# name property lets you easily identify the workflows
+# GitHub actions workflows components
+# 1. Actions - Reusable tasks that perform specific jobs within a workflow.
+# 2. workflows - Automated processes defined in your repository that coordinate one or more jobs, triggered by events or on a schedule.
+# 3. jobs - Groups of steps that execute on the same runner, typically running in parallel unless configured otherwise.
+# 4. steps - Individual tasks within a job that run commands or actions sequentially.
+# 5. runs - Instances of workflow execution triggered by events, resperesenting the complete run-through of a workflow.
+# 6. runners - servers that host the environment where the jobs are executed, availble as GitHub-hosted or self-hosted options.
+# 7. marketplace - A platform to find and share reusable actions, enhancing workflow capabilities with community-developed tools.
+
+# Schedule uses cron job to trigger the workflow at a specific given time or day.
+
+# cronjob -> minute, hour, day, month, weekday
+
+# to run the workflow manually need to use the workflow_dispatch event
+
+# using repository_dispatch we can use the webhook to trigger the workflow
